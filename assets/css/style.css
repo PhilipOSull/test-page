@@ -58,12 +58,17 @@ h1, h2 {
     border-bottom: 1px solid #3e09ed;
 }
 
+#cover-text, #cover-text h2 {
+    color: #fff;
+    text-align: center;
+}
+
 /* nft image */
 
 #nft-image {
     height: 600px;
     width: 100%;
-    background: url('../images/nftlogo2.jpg') no-repeat center center;
+    background: url('../images/nftlogo6.jpg') no-repeat center center;
 
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
@@ -75,6 +80,8 @@ h1, h2 {
     height: 600px;
     width: 100%;
     overflow: hidden;
+
+    position: relative;
 }
 
 
@@ -90,4 +97,24 @@ h1, h2 {
     to{
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 130%;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 150px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: rgba(21, 49, 85, 0.7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
 }
